@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="DynamicMusicPlayerWPF.KeyboardUI.IndivKey"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DynamicMusicPlayerWPF.KeyboardUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="45" d:DesignWidth="45">
+    <Grid>
+        <Rectangle x:Name="backgroundColor" Fill="#FFCBCBCB" Stroke="Black"/>
+        <TextBlock x:Name="keyText" Text="Q" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" TextAlignment="Center" Height="25" TextWrapping="Wrap" Foreground="Black"/>
+        <Button x:Name="selectButton" Background="#05000000" BorderBrush="#00000000" Foreground="#00000000" Opacity="0" Click="selectButton_Click"/>
+    </Grid>
+</UserControl>
